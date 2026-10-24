@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "not_customer_results": true,
+  "iterations": [
+    {"step": 1, "action": "prepare_workflow_ask", "feedback": "No observations yet", "next": "Ask for one recent task"},
+    {"step": 2, "action": "reduce_first_ask", "feedback": "Synthetic reviewer rejects uploading records before a conversation", "changed_variable": "Input burden", "next": "Offer a short walkthrough without uploads"},
+    {"step": 3, "action": "prepare_playback", "feedback": "Synthetic participant provides one task", "next": "Return a scoped comparison and verify participation"}
+  ]
+}

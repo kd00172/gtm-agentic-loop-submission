@@ -1,0 +1,12 @@
+{
+  "starts_at": "2026-10-24T09:00:00+09:00",
+  "deadline": "2026-10-31T18:00:00+09:00",
+  "targets": {
+    "workflow_participations": 2,
+    "workflow_conversations": 5,
+    "playbacks_delivered": 2,
+    "evidence_backed_revisions": 2
+  },
+  "stretch_targets": {"paid_pilots": 1},
+  "baseline_accounts": []
+}

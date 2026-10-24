@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {"type": "string"},
+    "rationale": {"type": "string"},
+    "work_product": {"type": "string"},
+    "feedback_used": {"type": "array", "items": {"type": "string"}},
+    "method": {"type": "string"},
+    "next_action": {"type": "string"},
+    "status": {"type": "string", "enum": ["continue", "waiting_for_input", "waiting_for_approval"]}
+  },
+  "required": ["action", "rationale", "work_product", "feedback_used", "method", "next_action", "status"],
+  "additionalProperties": false
+}
